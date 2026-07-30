@@ -21,8 +21,7 @@ planilhas excel.
 
 -> O sistema deverá transferir as planilhas ja processadas para uma outra pasta.
 
--> O sistema deverá criar um log de erros em txt que indica o cpf e o arquivo que os dados do candidato
-se encontram.
+-> O sistema deverá criar um log de erros para cada arquivo de candidatos
 
 -> O sistema devera criar contratos com base no modelo de contrato definido pelo RH.
 
