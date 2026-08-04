@@ -1,2 +1,4 @@
+O cpf  da planilha Lista 2 de candidatos.xlsx não possui 11 digitos
+O cpf cpf da planilha Lista 2 de candidatos.xlsx não possui 11 digitos
 O cpf 234.5678.90 da planilha Lista 2 de candidatos.xlsx não possui 11 digitos
 O cpf 234.5678.90 da planilha Lista 2 de candidatos.xlsx não possui 11 digitos
