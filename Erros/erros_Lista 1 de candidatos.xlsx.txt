@@ -1,4 +1,0 @@
-O cpf cpf da planilha Lista 1 de candidatos.xlsx não possui 11 digitos
-O 123.456.789-10 da planilha Lista 1 de candidatos.xlsx está presente em mais de um registro
-O 123.456.789-10 da planilha Lista 1 de candidatos.xlsx está presente em mais de um registro
-O cpf 123.567.89 da planilha Lista 1 de candidatos.xlsx não possui 11 digitos

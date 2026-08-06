@@ -25,9 +25,16 @@ planilhas excel.
 
 -> O sistema devera criar contratos com base no modelo de contrato definido pelo RH.
 
+-> O sistema devera remover da pasta de planilhas, os arquivos ja processados.
+
 -> Por motivos de segurança contra possiveis alterações no corpo do contrato, o sistema devera
 converter os contratos de docx para PDF, que torna a apresentação mais formal e permite que
 o candidato acesse o contrato também pelo celular.
+
+-> O sistema devera armazenar os pdfs em uma pasta chamada PDFs
+
+-> O sistema deverá acessar as pastas PDFs e envia-los via email aos seus
+respectivos candidatos
 
                                                             Itens dos Arquivos (planilhas e contratos)
 -> [NOME_FUNCIONÁRIO]
@@ -59,7 +66,10 @@ o candidato acesse o contrato também pelo celular.
 -> Contratos: Pasta que irá conter os contratos (PDFs) criados pelo sistema.
 
 -> Erros: Ira conter os logs com os processos que não funcionaram
-                                                            Ferramentas Utilizadas
+
+-> PDFs: Pasta que irá conter os contratos (PDFs) que serão enviados aos candidatos
+
+                                                        Ferramentas Utilizadas
 
 -> Python 3.12: Linguagem de programação que criará o sistema
 
@@ -67,9 +77,18 @@ o candidato acesse o contrato também pelo celular.
 
 -> pandas: Biblioteca de análise de dados que irá acessar as planilhas Excel
 
--> os: Biblioteca que irá criar e acessar as pastas no computador
+-> os: Biblioteca que irá criar e acessar as pastas no computador e as
+variáveis de ambiente
 
--> smtplib: Biblioteca que irá enviar os e-mails
+-> smtplib: Biblioteca que irá configurar o servidor de emails
 
+-> email: Biblioteca responsável por criar e enviar as mensagens com os
+anexos em PDF
+
+-> docx2pdf: Biblioteca que ira realizar as conversões de arquivos docx
+em PDFs
+
+-> dotenv: Biblioteca que irá acessar variáveis de ambiente
+ 
 -> datetime: Biblioteca que irá lidar com datas e pegar as datas de emissão 
 dos contratos.
